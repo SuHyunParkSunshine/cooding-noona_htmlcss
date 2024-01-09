@@ -1,0 +1,43 @@
+.Boxes {
+    display: flex;
+}
+
+.box {
+    border: 50px solid red;
+    width: 200px;
+    padding: 50px;
+    margin: 20px;
+}
+
+.green {
+    border: 50px solid green;
+}
+
+.blue {
+    border: 50px solid blue;
+}
+
+.v-line {
+    border-left: thick solid;
+    height: auto;
+}
+
+.pumpkin {
+    border: 50px solid #d35400;
+}
+
+.emerald {
+    border: 50px solid #2ecc71;
+}
+
+.midnightblue {
+    border: 50px solid #2c3e50;
+}
+
+.display-element {
+    display: none;
+}
+
+.visibility-element {
+    visibility: hidden;
+}

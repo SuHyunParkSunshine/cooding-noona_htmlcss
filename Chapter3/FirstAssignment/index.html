@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="Boxes">
+            <div>
+                <div class="box">Box 1</div>
+                <div class="box green display-element">Box 2</div>
+                <div class="box blue">Box 3</div>
+            </div>
+            <div class="v-line"></div>
+            <div>
+                <div class="box pumpkin">Box 4</div>
+                <div class="box midnightblue visibility-element">Box 5</div>
+                <div class="box emerald">Box 6</div>
+            </div>
+        </div>
+        <div>
+            <h2>display:none과 visibility:hidden의 차이</h2>
+            <ul>
+                <li><strong>display:none</strong></li>
+                <p>
+                    해당 공간을 완전히 제거하여, 레이아웃에 공간 할당X<br />
+                    다른 인접한 요소들은 숨겨진 요소가 없는 것처럼 그 공간을
+                    차지
+                </p>
+                <li><strong>visibility:hidden</strong></li>
+                <p>
+                    해당 요소가 화면에서는 보이지 않지만, 여전히 레이아웃에 공간을 할당O<br />
+                    다른 인접한 요소들은 숨겨진 요소가 차지하는 공간을 유지
+                </p>
+            </ul>
+        </div>
+    </body>
+</html>
