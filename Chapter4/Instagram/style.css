@@ -1,0 +1,163 @@
+.main {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login {
+    border: 1px solid rgb(202, 201, 201);
+    border-radius: 1px;
+    width: 330px;
+    height: 380px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.logo {
+    background-image: url(https://static.cdninstagram.com/rsrc.php/v3/ys/r/WBLlWbPOKZ9.png);
+    background-position: 0px 0px;
+    background-size: 176px 264px;
+    width: 174px;
+    height: 50px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 36px;
+    margin-bottom: 12px;
+}
+
+.login-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 300px;
+    width: 320px;
+    padding: 10px;
+}
+
+.inputbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.inputbox input {    
+    margin: 3px 0;
+    width: 240px;
+    height: 27px;    
+    padding-right: 10px;
+    border: 1px solid rgb(202, 201, 201);
+    border-radius: 1px;
+    background-color: #fbfbfb;
+    font-size: 12px;
+}
+
+button {
+    width: 250px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(109, 109, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.orbox {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+hr {
+    width: 100px;
+    border: 1px solid rgb(202, 201, 201); 
+}
+
+a {
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.orbox-first {
+    font-weight: bolder;
+}
+
+.signup {
+    border: 1px solid rgb(202, 201, 201);
+    border-radius: 1px;
+    width: 330px;
+    height: 50px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.signup span {
+    margin-right: 5px;
+}
+
+.signup a {
+    color: rgb(109, 109, 255);
+    font-weight: bold;
+}
+
+.getapp {
+    /* border: 1px solid rgb(202, 201, 201); */
+    width: 330px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.getapp-imgs {
+    margin-top: 10px;
+}
+
+.getapp-google {
+    width: 140px;
+}
+
+.getapp-micro {
+    width: 120px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer-text {
+   color: rgb(145, 145, 145);
+   margin-right: 20px;
+   font-size: 14px;
+}
+
+.footer-text:hover {
+    text-decoration: underline;
+}
+
+.second-line {
+    display: flex;
+}
+
+.second-line p {
+    margin-left: 20px;
+}
+
+.second-line form {
+    margin-top: 10px;
+}
