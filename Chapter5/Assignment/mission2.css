@@ -1,0 +1,22 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    color: white;
+    padding: 10px;    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second {
+    position: relative;
+    top: 200px;
+}
+
+.third {
+    position: relative;
+    top: 400px;
+}
